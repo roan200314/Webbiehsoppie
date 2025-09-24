@@ -23,14 +23,16 @@ export default function ShoppingCart() {
                     </div>
 
                     <div className="flex justify-center">Gambling guideline</div>
-                    <div className="flex justify-center">Know when to stop!</div>
+                    <div className="flex justify-center">Know when to stop!
+                        <p> Don't</p>
+                    </div>
                 </div>
             </div>
             <div>
                 <h1 className="grid h-80 grid-cols-1 flex text-center text-black">
                     The game
                 </h1>
-                <div>
+                <div className="flex justify-center">
                     {result && (
                         <div className="mt-6 text-center" aria-live="polite">
                             <div className="text-4xl font-bold text-black">{result.number}</div>
@@ -51,7 +53,7 @@ export default function ShoppingCart() {
                 </div>
                 <div className="flex justify-center rounded-xl">
                     <button
-                        className="p-6 text-black bg-blue-400"
+                        className="p-6 text-black bg-blue-400 hover:bg-sky-700 rounded-xl cursor-pointer active:bg-blue-600 mb-5"
                         onClick={() => {
                             const n = rollBall();
                             const info = classifyNumber(n);
