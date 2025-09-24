@@ -11,7 +11,9 @@ export default function Page() {
       </div>
 
       <div className="bg-black mt-10">
-        <h1 className="flex justify-center text-white">About us</h1>
+        <div className="pb-5">
+          <h1 className="flex justify-center text-white">About us</h1>
+        </div>
           <div className="grid h-25 grid-cols-3 gap-4 flex justify-center">
           <div className="flex justify-center pl-5">Why</div>
           <div className="flex justify-center">Where</div>
