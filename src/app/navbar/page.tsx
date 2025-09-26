@@ -6,8 +6,8 @@ export default function Navbar() {
       <ul className="grid grid-cols-5">
         <Link className="font-bold underline" href="/">Home</Link>
         <Link className="font-bold underline" href="#">About</Link>
-        <Link className="font-bold underline" href="#">Faq</Link>
-        <Link className="font-bold underline" href="/shopping-cart">Shopping cart</Link>
+        <Link className="font-bold underline" href="/HiLo">HiLo</Link>
+        <Link className="font-bold underline" href="/shopping-cart">Roulette</Link>
         <input className="place-self-end" type="text" placeholder="Search.."></input>
       </ul>
       <div>
